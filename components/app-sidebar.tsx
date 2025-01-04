@@ -55,14 +55,74 @@ const data = {
   ],
   navMain: [
     {
-      title: "Requests",
+      title: "Create Request",
       url: "/requests",
       icon: SquareTerminal,
       isActive: true,
       items: [
         {
-          title: "History",
+          title: "New Request",
+          url: "/create/allnew",
+        },
+        {
+          title: "Drafts",
+          url: "/create/drafts",
+        },        
+      ],
+    },
+    {
+      title: "My Requests",
+      url: "/requests",
+      icon: SquareTerminal,
+      isActive: true,
+      items: [
+        {
+          title: "Sent",
           url: "/requests/history",
+        },
+        {
+          title: "Acknowledged",
+          url: "/requests/history",
+        },
+        {
+          title: "Provided",
+          url: "/requests/history",
+        },
+        {
+          title: "Refused",
+          url: "/requests/history",
+        },
+        {
+          title: "Appealed (DO)",
+          url: "/requests/history",
+        },
+        {
+          title: "Acknowleddged (DO)",
+          url: "/requests/history",
+        },
+        {
+          title: "Refused (DO)",
+          url: "/requests/history",
+        },
+        {
+          title: "Appealed (RTIC)",
+          url: "/requests/history",
+        },
+      ],
+    },
+    {
+      title: "Public Authorities",
+      url: "/pas",
+      icon: SquareTerminal,
+      isActive: true,
+      items: [
+        {
+          title: "Browse",
+          url: "/pas/browse",
+        },
+        {
+          title: "Edit",
+          url: "/pas/",
         },
         // {
         //   title: "Starred",
